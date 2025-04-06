@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/wonchan/SFU/CSES/output/Weird_algorithm'
+relocations:     []
+...
