@@ -4,4 +4,4 @@ project(CSES)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(CSES
-        Introductory/GrayCode.cpp)
+        "Introductory/Creating Strings.cpp")
