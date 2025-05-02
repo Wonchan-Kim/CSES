@@ -49,11 +49,11 @@ cmake_ninja_workdir = /Users/wonchan/SFU/CSES/cmake-build-debug/
 
 build cmake_object_order_depends_target_CSES: phony || CMakeFiles/CSES.dir
 
-build CMakeFiles/CSES.dir/Sorting_and_Searching/Ferris_Wheel.cpp.o: CXX_COMPILER__CSES_unscanned_Debug /Users/wonchan/SFU/CSES/Sorting$ and$ Searching/Ferris$ Wheel.cpp || cmake_object_order_depends_target_CSES
-  DEP_FILE = CMakeFiles/CSES.dir/Sorting_and_Searching/Ferris_Wheel.cpp.o.d
-  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+build CMakeFiles/CSES.dir/Introductory/GrayCode.cpp.o: CXX_COMPILER__CSES_unscanned_Debug /Users/wonchan/SFU/CSES/Introductory/GrayCode.cpp || cmake_object_order_depends_target_CSES
+  DEP_FILE = CMakeFiles/CSES.dir/Introductory/GrayCode.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/CSES.dir
-  OBJECT_FILE_DIR = CMakeFiles/CSES.dir/Sorting_and_Searching
+  OBJECT_FILE_DIR = CMakeFiles/CSES.dir/Introductory
 
 
 # =============================================================================
@@ -63,8 +63,8 @@ build CMakeFiles/CSES.dir/Sorting_and_Searching/Ferris_Wheel.cpp.o: CXX_COMPILER
 #############################################
 # Link the executable CSES
 
-build CSES: CXX_EXECUTABLE_LINKER__CSES_Debug CMakeFiles/CSES.dir/Sorting_and_Searching/Ferris_Wheel.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
+build CSES: CXX_EXECUTABLE_LINKER__CSES_Debug CMakeFiles/CSES.dir/Introductory/GrayCode.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk
   OBJECT_DIR = CMakeFiles/CSES.dir
   POST_BUILD = :
   PRE_LINK = :
