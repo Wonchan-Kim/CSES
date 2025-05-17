@@ -4,4 +4,4 @@ project(CSES)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(CSES
-        "Introductory/Creating Strings.cpp")
+        "Introductory/Raab Game I.cpp")
